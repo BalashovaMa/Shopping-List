@@ -4,5 +4,5 @@
     padding: 0;
 }
 body {
-    background-image: url('/assets/fruit.jpg');
+    background-image: url('./assets/fruit.jpg');
 }
