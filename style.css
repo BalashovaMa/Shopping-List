@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
 }
-body {
-    /* background-image: url('./assets/fruit.jpg');  */
-}
+/* body {
+    background-image: url('./assets/fruit.jpg'); 
+} */
 .done {
     color: rgb(128, 128, 128);
     text-decoration: line-through;
