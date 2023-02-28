@@ -4,11 +4,14 @@
     padding: 0;
 }
 body {
-    background-image: url('./assets/fruit.jpg'); 
+    background: url('./assets/fruit.jpg') center center/cover no-repeat; 
     font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
 } 
 #shopping-list {
-    width: 30%;
+    width: 50%;
     margin: 100px auto;
     background-color: #f9f4f4;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -72,4 +75,9 @@ li:hover span {
 }
 h2 span {
     float: right;
+}
+@media (max-width: 500px) {
+    #shopping-list {
+        width: 90%;
+    }
 }
