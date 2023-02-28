@@ -10,20 +10,23 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Shopping list</title>
 </head>
 
 <body>
     <div id="shopping-list">
-        <h2>Shopping list</h2>
+        <h2>Shopping list<span><i class="fas fa-plus-circle"></i></span></h2>
         <input type="text" placeholder="Add item">
         <ul>
-            <li><span>X</span> Milk</li>
-            <li><span>X</span> Meat</li>
-            <li><span>X</span> Bread</li>
+            <li>Milk<span><i class="fas fa-backspace"></i></span></li>
+            <li>Meat<span><i class="fas fa-backspace"></i></span></i></li>
+            <li>Bread<span><i class="fas fa-backspace"></i></span></i></li>
         </ul>
+        
     </div>
+    <i class="fa-solid fa-delete-left"></i>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
